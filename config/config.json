@@ -1,0 +1,13 @@
+{
+    "map": {
+        "default_style": "OpenStreetMap",
+        "sector": {
+            "angle": 120.0,
+            "radius": 500.0
+        }
+    },
+    "filters": {
+        "day_start": "07:00",
+        "day_end": "20:00"
+    }
+}

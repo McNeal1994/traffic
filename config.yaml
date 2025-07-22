@@ -1,0 +1,19 @@
+app:
+  expiration_date: '2026-12-31'
+  logging:
+    format: '%(asctime)s - %(levelname)s - %(message)s'
+    level: INFO
+  name: AnalyzeR
+  version: 2.0.0
+database:
+  backup_path: backups/
+  path: addresses.db
+traffic:
+  max_distance: 400
+  required_columns:
+  - Адреса БС
+  - Абонент А
+  - Дата
+  - Час
+  similarity_threshold: 90
+  time_window: 30
